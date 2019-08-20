@@ -24,14 +24,26 @@ alturaMetros = 1.80
 # Métodos 
 
 def calcularIndiceMassaCorporal(pesoQuilos, alturaMetros):
-    r'''realiza o cálculo do IMC
+    r'''calcularIndiceMassaCorporal realiza o cálculo do índice de massa corporal (IMC)
         :param pesoQuilos: peso do indivíduo (kg)
         :param alturaMetros: altura do indivíduo (m)
+        :return indiceMassaCorporal: índice de massa corporal (IMC)
     '''
     indiceMassaCorporal = (pesoQuilos / (alturaMetros ** 2)) 
+    isMuitoAbaixoPeso(indiceMassaCorporal)
     return indiceMassaCorporal
+
+
+def isMuitoAbaixoPeso(indiceMassaCorporal):
+    r'''isMuitoAbaixoPeso verifica se o indivíduo está muito abaixo do peso ideal
+        :param indiceMassaCorporal: indice de massa corporal do indivíduo
+        :return isMuitoAbaixoPeso: resultado da verificação (indiceMassaCorporal < 17)
+    '''
+    isMuitoAbaixoPeso = (indiceMassaCorporal < 17)
+    print("\n - Está muito abaixo do peso ideal? ", isMuitoAbaixoPeso)
+    return isMuitoAbaixoPeso
 
 
 # Chamada de Métodos
 
-print("- Índice de Massa Corporea (IMC): ", calcularIndiceMassaCorporal(pesoQuilos, alturaMetros))
+calcularIndiceMassaCorporal(pesoQuilos, alturaMetros)
