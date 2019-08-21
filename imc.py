@@ -2,21 +2,23 @@
 
 '''
 Esse arquivo implementa a tarefa 001 ('indice de massa corporal (IMC) da disciplina "Fundamentos de Programação e 
-Engenharia de Software - PES-001(2019.2)" do Programa de Pós-Graduação em Neuroengenharia do  Instituto Internacional 
+Engenharia de Software - PES-001(2019.2)" do Programa de Pós-Graduação em Neuroengenharia do Instituto Internacional 
 de Neurociências Edmond e Lily Safra (IIN-ELS).
 
-Requisitos e orientações para execução dessa tarefa encontram-se na wiki do projeto, na seção tarefa 1 - IMC.
+Requisitos e orientações para execução dessa tarefa encontram-se na wiki do projeto: 
+https://github.com/alexaquino/IINELS-PES-001/wiki.
 
-:autores:
-    - Alex Aquino.
-    - Bruno Guedes Spinelli
+:author:
+    Alex Aquino
+    Bruno Spinelli
+    Pablo
+    Rodrigo
 
 :version: 1.0.0
 :license: MIT
 '''
 
 # Variáveis Globais 
-
 pesoQuilos = 70.00
 alturaMetros = 1.80
 
@@ -45,5 +47,4 @@ def isMuitoAbaixoPeso(indiceMassaCorporal):
 
 
 # Chamada de Métodos
-
 calcularIndiceMassaCorporal(pesoQuilos, alturaMetros)
