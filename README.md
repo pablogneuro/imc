@@ -1,5 +1,5 @@
 # IINELS-PES-001 - Tarefa 1 (IMC)
-Branch dedicado a tarefa 1 (IMC) da disciplina "Fundamentos de Programação e Engenharia de Software - PES-001(2019.2)" do Programa de Pós-Graduação em Neuroengenharia do Instituto Internacional de Neurociências Edmond e Lily Safra (IIN-ELS).
+Repositório dedicado a tarefa 1 (IMC) da disciplina "Fundamentos de Programação e Engenharia de Software - PES-001(2019.2)" do Programa de Pós-Graduação em Neuroengenharia do Instituto Internacional de Neurociências Edmond e Lily Safra (IIN-ELS).
 
 ### Estrutura de Diretório
 
