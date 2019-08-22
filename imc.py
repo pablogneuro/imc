@@ -34,6 +34,7 @@ def calcularIndiceMassaCorporal(pesoQuilos, alturaMetros):
     indiceMassaCorporal = (pesoQuilos / (alturaMetros ** 2)) 
     isMuitoAbaixoPeso(indiceMassaCorporal)
     isAbaixoPeso(indiceMassaCorporal)
+    isAcimaPeso(indiceMassaCorporal)
     return indiceMassaCorporal
 
 
@@ -56,6 +57,15 @@ def isAbaixoPeso(indiceMassaCorporal):
     print("\n - Está abaixo do peso ideal? ", isAbaixoPeso)
     return isAbaixoPeso
 
+
+def isAcimaPeso(indiceMassaCorporal):
+    r'''isAcimaPeso verifica se o indivíduo está acima do peso ideal
+        :param indiceMassaCorporal: indice de massa corporal do indivíduo
+        :return isAcimaPeso: resultado da verificação (indiceMassaCorporal >= 25 and indiceMassaCorporal indiceMassaCorporal <=30)
+    '''
+    isAcimaPeso = (indiceMassaCorporal >= 25 and indiceMassaCorporal>=30)
+    print("\n - Está acima do peso ideal? ", isAcimaPeso)
+    return isAcimaPeso
 
 # Chamada de Métodos
 calcularIndiceMassaCorporal(pesoQuilos, alturaMetros)
