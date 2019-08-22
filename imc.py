@@ -11,8 +11,8 @@ https://github.com/alexaquino/IINELS-PES-001/wiki.
 :author:
     Alex Aquino
     Bruno Spinelli
-    Pablo
-    Rodrigo
+    Pablo Queiroz
+    Rodrigo Henrique
 
 :version: 1.0.0
 :license: MIT
@@ -66,6 +66,7 @@ def isAcimaPeso(indiceMassaCorporal):
     isAcimaPeso = (indiceMassaCorporal >= 25 and indiceMassaCorporal>=30)
     print("\n - Está acima do peso ideal? ", isAcimaPeso)
     return isAcimaPeso
+
 
 # Chamada de Métodos
 calcularIndiceMassaCorporal(pesoQuilos, alturaMetros)

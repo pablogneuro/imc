@@ -6,7 +6,7 @@ Branch dedicado a tarefa 1 (IMC) da disciplina "Fundamentos de Programação e E
 * `README.md` breve descrição do projeto
 * `LICENSE.md` documentação da licença
 
-### Prerequisites para execução da aplicação
+### Pré-requisitos para execução da aplicação
 
 * Python 3: [Python 3.7] 
 * Terminal bash ou sua IDE favorita: [Ex.: VSCode]
@@ -32,3 +32,11 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 **@brunospinelli**
 * `Email: brunoguedesspinelli@hotmail.com`
+
+
+**@pablogneuro**
+* `Email: pabloqueiroz5@gmail.com`
+
+
+**@Rhamaral**
+* `Email: rodrigohoa@gmail.com`
