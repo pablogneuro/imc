@@ -68,6 +68,7 @@ def isAcimaPeso(indiceMassaCorporal):
     print("\n - Está acima do peso ideal? ", isAcimaPeso)
     return isAcimaPeso
 
+
 def isPesoNormal(indiceMassaCorporal):
     r'''isPesoNormal verifica se o indivíduo está com o peso ideal
         :param indiceMassaCorporal: indice de massa corporal do indivíduo
