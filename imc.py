@@ -36,6 +36,7 @@ def calcularIndiceMassaCorporal(pesoQuilos, alturaMetros):
     isAbaixoPeso(indiceMassaCorporal)
     isPesoNormal(indiceMassaCorporal)
     isAcimaPeso(indiceMassaCorporal)
+    isMuitoAcimaPeso(indiceMassaCorporal)
     return indiceMassaCorporal
 
 
@@ -59,6 +60,16 @@ def isAbaixoPeso(indiceMassaCorporal):
     return isAbaixoPeso
 
 
+def isPesoNormal(indiceMassaCorporal):
+    r'''isPesoNormal verifica se o indivíduo está com o peso ideal
+        :param indiceMassaCorporal: indice de massa corporal do indivíduo
+        :return isPesoNormal: resultado da verificação (indiceMassaCorporal >= 18.5 and indiceMassaCorporal indiceMassaCorporal <= 25)
+    '''
+    isPesoNormal = (indiceMassaCorporal >= 18.5 and indiceMassaCorporal <= 25)
+    print("\n - Está com o peso ideal? ", isPesoNormal)
+    return isPesoNormal
+  
+  
 def isAcimaPeso(indiceMassaCorporal):
     r'''isAcimaPeso verifica se o indivíduo está acima do peso ideal
         :param indiceMassaCorporal: indice de massa corporal do indivíduo
@@ -69,14 +80,14 @@ def isAcimaPeso(indiceMassaCorporal):
     return isAcimaPeso
 
 
-def isPesoNormal(indiceMassaCorporal):
-    r'''isPesoNormal verifica se o indivíduo está com o peso ideal
+def isMuitoAcimaPeso(indiceMassaCorporal):
+    r'''isMuitoAcimaPeso verifica se o indivíduo está muito acima do peso ideal
         :param indiceMassaCorporal: indice de massa corporal do indivíduo
-        :return isPesoNormal: resultado da verificação (indiceMassaCorporal >= 18.5 and indiceMassaCorporal indiceMassaCorporal <= 25)
+        :return isMuitoAcimaPeso: resultado da verificação (indiceMassaCorporal > 30)
     '''
-    isPesoNormal = (indiceMassaCorporal >= 18.5 and indiceMassaCorporal <= 25)
-    print("\n - Está com o peso ideal? ", isPesoNormal)
-    return isPesoNormal
+    isMuitoAcimaPeso = (indiceMassaCorporal > 30)
+    print("\n - Está muito acima do peso ideal? ", isMuitoAcimaPeso)
+    return isMuitoAcimaPeso
 
 
 # Chamada de Métodos
