@@ -6,23 +6,24 @@ Repositório dedicado ao módulo **iMC** da tarefa 1 (IMC) da disciplina "Fundam
 
 O **iMC** é uma módulo python para o cálculo do Índice de Massa Corpórea (IMC). O IMC é uma medida internacional usada para calcular se uma pessoa está no peso ideal.
 
-<img src="https://img.shields.io/static/v1.svg?style=flat-square&label=PYTHON&message=3.7.4&color=blue"/>
-<img src="https://img.shields.io/static/v1.svg?style=flat-square&label=VSCODE&message=1.37.1&color=green"/>
-<img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Git&message=2.21.0&color=inactive"/>
+<img src="https://img.shields.io/static/v1.svg?style=flat-square&label=PYTHON&message=3.7.4&color=blue"/> <img src="https://img.shields.io/static/v1.svg?style=flat-square&label=VSCODE&message=1.37.1&color=green"/> <img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Git&message=2.21.0&color=inactive"/>
 
 <br>
 
-## Primeiros Passos: contribuindo com o projeto
+## Primeiros Passos: 
+A seguir, será fornecido algumas informações e orientações básicas a respeito do módulo iMC. Para maiores informações e os recursos por ele fornecidos, visite a [Wiki] do projeto.
+
+## 1. Recursos necessários
 
 **IMPORTANTE:** Para contribuir com o **iMC**, algumas ações devem ser realizadas para que tudo funcione corretamente. Primeiro certifique-se que você possuí instalados: 
 
-- [Python 3.7] (linguagem)
-- [Git] (csv)
-- [VSCode] (ide)
-- [Git + VSCode] (integração)
-- [Github] (conta)
+- [Python 3.7] 
+- [Git] 
+- [VSCode] 
+- [Git + VSCode] 
+- [Github] 
 
-**1. Realizando "Fork" do repositório iMC:**
+## 2. Realizando "Fork" do repositório iMC:
 
    1. Logar na sua conta do Github;
    2. Acessar o [repositório iMC]; 
@@ -30,7 +31,7 @@ O **iMC** é uma módulo python para o cálculo do Índice de Massa Corpórea (I
    4. Aguardar o processo ser concluído;
    5. Pronto você será redirecionado para a cópia do repositório em seu GtiHub;
 
-**2. Clonando o projeto:**
+## 3. Clonando o projeto:
  
 **Utilizando VSCode**: 
 O VSCode é totalmente integrado com o Git e torna a ação extremamente simples, se você tá começando a tralhar com controle de versão agora, essa é uma boa opção:
@@ -53,13 +54,13 @@ Caso deseje realizar a ação utilizando um terminal:
   6. Tudo Pronto, seu clone local foi criado;
   7. Basta abrir o diretório imc criado com sua IDE favorita;
 
-**2. Executando o projeto**
+## 4. Executando o projeto
 
 Para executar o módulo via terminal: 
 1. Acesse o diretório do arquivo que deseja executar (Ex: ... `cd git/imc`); 
 2. Execute o comando: `python3 imc.py`
 
-**3. Sincronizando o "Fork" com repositório oficial:**
+## 5. Sincronizando o "Fork" com repositório oficial:
 
 Para manter seu "Fork" sincronizado com o repositório oficial, você deve:
 1. [Configurar um *remote* para o *fork*];
@@ -79,7 +80,7 @@ Para manter seu "Fork" sincronizado com o repositório oficial, você deve:
 
 Para maiores informações sobre o **iMC** e os recursos por ele fornecidos, visite a [Wiki] do projeto.
 
-### Equipe
+## Equipe
 
 **@alexaquino**
 * `Email: alexaquino.it@gmail.com`
@@ -98,7 +99,7 @@ Para maiores informações sobre o **iMC** e os recursos por ele fornecidos, vis
 **@Rhamaral**
 * `Email: rodrigohoa@gmail.com`
 
-### License
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
