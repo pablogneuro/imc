@@ -58,7 +58,7 @@ Caso deseje realizar a ação utilizando um terminal:
 
 Para executar o módulo via terminal: 
 1. Acesse o diretório do arquivo que deseja executar (Ex: ... `cd git/imc`); 
-2. Execute o comando: `python3 imc.py`
+2. Execute o comando: `python3 main.py`
 
 ## 5. Sincronizando o "Fork" com repositório oficial:
 
